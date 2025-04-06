@@ -1,0 +1,25 @@
+{
+  "name": "onlineshop",
+  "version": "1.0.0",
+  "description": "Initial confing and plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabricioarce/OnlineShop.git"
+  },
+  "keywords": [
+    "SASS"
+  ],
+  "author": "Fabricio Arce Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabricioarce/OnlineShop/issues"
+  },
+  "homepage": "https://github.com/fabricioarce/OnlineShop#readme",
+  "dependencies": {
+    "sass": "^1.86.3"
+  }
+}
