@@ -1,0 +1,39 @@
+@use 'base/variables' as v;
+
+.header {
+    background-color: v.$Petroleum-Green;
+
+    .contenido-header {
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        color: v.$white;
+        margin: 0;
+    }
+}
+
+.right{
+    .navegacion-principal {
+        display: flex;
+        gap: 2rem;
+        a {
+            color: v.$white;
+            font-weight: 200;
+            font-size: 2rem;
+        }
+    }
+}
+
+.left {
+    a {
+        padding: 0 2rem;
+        color: v.$white;
+    }
+    .icon {
+        size: 10rem;
+    }
+}
