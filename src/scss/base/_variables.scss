@@ -1,0 +1,16 @@
+$fuente_pricipal : "Inter", sans-serif;
+$fuente_logos: "FiraCodeNF", sans-serif;
+
+// Colores
+$black: #0F0F0F;
+$white: #FFFFFF;
+$graphite-gray: #2C2C2C;
+$steel-blue: #3A5A78;
+$Petroleum-Green: #2F4F4F;
+$Golden-Yellow: #D4AF37;
+$Copper: #B87333;
+
+@font-face {
+    font-family: 'FiraCodeNF';
+    src: url('../fonts/FiraCodeNerdFont-Regular.ttf') format('truetype');
+}
