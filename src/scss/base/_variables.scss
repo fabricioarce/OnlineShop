@@ -1,5 +1,5 @@
 $fuente_pricipal : "Inter", sans-serif;
-$fuente_logos: "FiraCodeNF", sans-serif;
+$fuente_emojis : "Noto Emoji", sans-serif;
 
 // Colores
 $black: #0F0F0F;
@@ -10,7 +10,8 @@ $Petroleum-Green: #2F4F4F;
 $Golden-Yellow: #D4AF37;
 $Copper: #B87333;
 
-@font-face {
-    font-family: 'FiraCodeNF';
-    src: url('../fonts/FiraCodeNerdFont-Regular.ttf') format('truetype');
-}
+// Media Queries
+$phone: 480px;
+$tablet: 768px;
+$desktop: 1200px;
+$desktopXL: 1400px;

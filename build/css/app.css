@@ -307,10 +307,6 @@ template {
   display: none;
 }
 
-@font-face {
-  font-family: "FiraCodeNF";
-  src: url("../fonts/FiraCodeNerdFont-Regular.ttf") format("truetype");
-}
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -381,28 +377,52 @@ body > section {
 .header .contenido-header {
   padding: 2rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+}
+@media (min-width: 768px) {
+  .header .contenido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 .header h1 {
   color: #FFFFFF;
-  margin: 0;
+  margin: 1rem;
+}
+@media (min-width: 768px) {
+  .header h1 {
+    margin: 0;
+  }
 }
 
-.right .navegacion-principal {
+.navegacion-principal {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 2rem;
 }
-.right .navegacion-principal a {
+@media (min-width: 768px) {
+  .navegacion-principal {
+    flex-direction: row;
+  }
+}
+
+.right a {
   color: #FFFFFF;
   font-weight: 200;
   font-size: 2rem;
 }
+.right a:hover {
+  color: #D4AF37;
+}
 
 .left a {
+  font-family: "Noto Emoji", sans-serif;
+  font-size: 3rem;
   padding: 0 2rem;
   color: #FFFFFF;
 }
-.left .icon {
-  size: 10rem;
+.left a:hover {
+  color: #B87333;
 }
